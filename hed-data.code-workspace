@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "datasets"
+		},
+		{
+			"path": "src"
+		}
+	],
+	"settings": {}
+}
