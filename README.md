@@ -35,7 +35,7 @@ Working repository putting HED into open datasets
 - ds004120
 - ds004119
 - ds004118
-- ds004117
+- ds004117 - Sternberg -- Sidecar updated, coordsystem.json has not task or run, electrodes.tsv has no task
 - ds004106
 - ds004105
 - ds003645

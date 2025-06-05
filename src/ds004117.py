@@ -3,6 +3,17 @@ import re
 
 
 def rename_coordsystem_files(root_dir):
+    """Rename and clean coordsystem files in the specified directory.
+    
+    Parameters:
+        root_dir (str): The root directory to search for the files.
+    
+    This function:
+       1. Renames run-1_coordsystem.json files to remove the run number.
+       2. Deletes any coordsystem files for runs greater than 1.
+       3. Renames electrodes.tsv files to remove the _task-WorkingMemory entity.
+    
+    """
     # Pattern to match run-1 coordsystem files for renaming
     pattern = re.compile(
         r"^(sub-[^_]+_ses-[^_]+)_task-WorkingMemory_run-1_coordsystem\.json$"
